@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="musicservice" />
+        <module name="config-server" />
+        <module name="wishlistservice" />
+        <module name="authentication-service" />
+        <module name="api-gateway" />
+        <module name="userprofile" />
+        <module name="eureka-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="music-service" target="17" />
+      <module name="userprofile-service" target="17" />
+      <module name="wishlist-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="authentication-service" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="music-service" options="-parameters" />
+      <module name="musicservice" options="-parameters" />
+      <module name="userprofile" options="-parameters" />
+      <module name="userprofile-service" options="-parameters" />
+      <module name="wishlist-service" options="-parameters" />
+      <module name="wishlistservice" options="-parameters" />
+    </option>
+  </component>
+</project>
